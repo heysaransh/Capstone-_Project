@@ -1,0 +1,288 @@
+
+h1,
+body,
+h4,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(8, 15, 23, 1);
+  ;
+}
+
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 16px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+nav div {
+  display: flex;
+  gap: 32px;
+}
+nav h1 {
+  font-family:Plus Jakarta Sans;
+  font-size: 42px;
+  font-weight: 650;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: rgba(214, 221, 230, 1);
+  ;
+}
+nav p {
+  font-family:Plus Jakarta Sans;
+  font-size: 28px;
+  font-weight: 350;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(214, 221, 230, 1);
+}
+
+header {
+  padding: 120px 48px 72px 48px;
+}
+header h1 {
+  font-family:Plus Jakarta Sans;
+  margin-bottom: 48px;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(214, 221, 230, 1);
+  ;
+}
+header img{
+    border-radius: 2vw;
+    border: 0.1vw solid rgba(214, 221, 230, 0.2);
+}
+
+.projects {
+  padding: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+.projects img {
+  border: 0.1vw solid rgba(214, 221, 230, 0.2);
+  margin-bottom: 8px;
+}
+.projects h1 {
+  font-family:Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(214, 221, 230, 1);
+  ;
+}
+.projects p {
+  font-family:Plus Jakarta Sans;
+  color: rgba(214, 221, 230, 0.62);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.main-area {
+    padding: 6.67vw 1.67vw;  
+    border-bottom: 0.07vw solid rgba(214, 221, 230, 1);  
+}
+
+.main-text {
+    text-align: center;
+    font-family:Plus Jakarta Sans;
+    color: rgba(214, 221, 230, 1);
+    padding-left: 25vw;
+    font-weight: 600;
+    font-size: 2.33vw;  
+    max-width: 41.67vw;
+}
+
+.contacts {
+    color:rgba(214, 221, 230, 1);
+    padding-left:2vw;
+    padding: 6.67vw 0;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cont {
+    font-family:Plus Jakarta Sans;
+    padding-left: 2vw;
+    color: (214, 221, 230, 1);
+    text-align: left;
+    font-weight: 700;
+    font-size: 2.78vw;  
+}
+
+.mess {
+    width:50vw;
+    font-family:Plus Jakarta Sans;
+    text-align: left;
+    color: rgba(214, 221, 230, 1);
+    font-weight: 300;
+    font-size: 1.67vw;  
+    line-height: 2.22vw;  
+}
+
+
+
+
+@media (max-width: 768px) {
+    .main-area { 
+        width: 100%;
+        padding: 8.67vw 1.67vw; 
+    }
+    .main-area h3{
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2vw;
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 465px) {
+		.main-area {
+        height: auto;
+        width: 100%;
+        padding: 8.67vw 1.67vw; 
+    }
+    .main-area h3{
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2vw;
+        width: 100%;
+    }
+    .contacts {
+        padding: 6.67vw 0;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mess {
+        text-align: left;
+        padding-right: 3vw;
+        font-weight: 400;
+        font-size: 2vw;  
+        line-height: 2.22vw;  
+    }
+
+}
+.contact {
+  padding: 200px 48px 272px 48px;
+  display: flex;
+  justify-content: center;
+}
+.contact div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact h1 {
+  font-family:Plus Jakarta Sans;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(214, 221, 230, 1);
+  ;
+  margin-bottom: 8px;
+}
+.contact p {
+  font-family:Plus Jakarta Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: rgba(214, 221, 230, 1);
+}
+.contact a {
+  font-family:Plus Jakarta Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  color: rgba(167, 238, 67, 1);
+  ;
+}
+.contact input{
+  font-family:Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  width: 56px;
+  height: 64px;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: rgba(214, 221, 230, 0.4);
+  background: rgba(214, 221, 230, 0.1);
+}
+.contact button {
+  font-family:Plus Jakarta Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 32px;
+  padding: 8px 16px;
+  background-color: rgba(167, 238, 67, 1);
+  color:black;
+  border: none;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+}
+.contact .inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+footer {
+  padding: 72px 48px 24px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+footer h1 {
+  font-family:Plus Jakarta Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #999;
+}
+footer button {
+  font-family:Plus Jakarta Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color:  rgba(214, 221, 230, 1);
+  border: 1px solid #ffffff29;
+  background: rgba(8, 15, 23, 1);
+  border-radius: 8px;
+  padding: 12px 24px;
+}
